@@ -1,0 +1,14 @@
+nav{
+    margin: auto;
+}
+.img {
+    display: inline-block;
+}
+nav ul li {
+    list-style: none;
+    display: inline-block;
+    padding: 0 20px;
+}
+.enlaces-style {
+    text-decoration: none;
+}
