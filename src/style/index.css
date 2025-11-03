@@ -1,0 +1,100 @@
+/* TEMA CLARO (POR DEFECTO) */
+:root {
+    /* Fondos */
+    --bg-gradient: linear-gradient(135deg, #f5f7fa 0%, #e8eef5 100%);
+    --card-bg: rgba(255, 255, 255, 0.8);
+    --code-bg: #f7fafc;
+
+    /* Texto */
+    --text-primary: #1a202c;
+    --text-secondary: #4a5568;
+    --text-tertiary: #718096;
+    --text-on-accent: #ffffff;
+
+    /* Acentos y Botones */
+    --accent-gradient: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    --primary-accent-color: #667eea;
+    --secondary-accent-color: #764ba2;
+    --primary-accent-shadow: 0 4px 15px rgba(102, 126, 234, 0.4);
+    --primary-accent-shadow-hover: 0 6px 20px rgba(102, 126, 234, 0.6);
+
+    /* Bordes y Sombras */
+    --border-color: #e2e8f0;
+    --card-shadow: 0 8px 32px rgba(0, 0, 0, 0.1);
+
+    /* Fuentes */
+    --font-heading: 'Space Grotesk', sans-serif;
+    --font-body: 'Inter', sans-serif;
+    --font-code: 'JetBrains Mono', monospace;
+}
+
+/* TEMA OSCURO */
+body.dark {
+    /* Fondos */
+    --bg-gradient: linear-gradient(135deg, #0f1419 0%, #1a1f2e 100%);
+    --card-bg: rgba(26, 31, 46, 0.6);
+    --code-bg: rgba(15, 20, 25, 0.5);
+
+    /* Texto */
+    --text-primary: #e2e8f0;
+    --text-secondary: #a0aec0;
+
+    /* Bordes y Sombras */
+    --border-color: rgba(255, 255, 255, 0.1);
+    --card-shadow: 0 8px 32px rgba(0, 0, 0, 0.4);
+}
+
+/* ESTILOS GLOBALES */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: var(--font-body);
+    color: var(--text-primary);
+    
+    background: var(--bg-gradient);
+    
+    transition: background 0.5s ease, color 0.3s;
+    min-height: 100vh;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: var(--font-heading);
+    font-weight: 700;
+    color: var(--text-primary);
+}
+
+p {
+    color: var(--text-secondary);
+    line-height: 1.7;
+}
+
+code, pre {
+    font-family: var(--font-code);
+}
+
+.section-title-gradient {
+    font-size: 2.5em;
+    font-weight: 700;
+    background: var(--accent-gradient);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-fill-color: transparent;
+}
+
+.glass-card {
+    background: var(--card-bg);
+    backdrop-filter: blur(10px);
+    border-radius: 16px;
+    box-shadow: var(--card-shadow);
+    padding: 30px;
+}
