@@ -1,20 +1,18 @@
+import { useTranslation } from '../../../hooks/UseTranslation';
 import './experienceSection.css'
 
 export const ExperienceSection = () => {
+
+    const { t } = useTranslation();
+
     return (
         <>
-            <h1>Experiencia laboral</h1>
+            <h1>{t('experience.title')}</h1>
             <div>
                 <img/> {/*logo empresa*/}
-                <p>Titulo del puesto 1</p>
-                <p>Empresa y duración</p>
-                <p>Aptitudes y conocimentos adquitidos</p>
-            </div>
-            <div>
-                <img/> {/*logo empresa*/}
-                <p>Titulo del puesto 2</p>
-                <p>Empresa y duración</p>
-                <p>Aptitudes y conocimentos adquitidos</p>
+                <p>{t('experience.job1.position')}</p>
+                <p>{t('experience.job1.company')}</p>
+                <p>{t('experience.job1.description')}</p>
             </div>
         </>
     )

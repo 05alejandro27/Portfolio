@@ -1,10 +1,14 @@
+import { useTranslation } from '../../../hooks/UseTranslation'
 import './aboutSection.css'
 
 export const AboutSection = () => {
+
+    const { t } = useTranslation();
+
     return (
         <>
-            <h1>Sobre mi</h1>
-            <p>Descripción sobre mi</p>
+            <h1>{t('about.title')}</h1>
+            <p>{t('about.description')}</p>
         </>
     )
 }
