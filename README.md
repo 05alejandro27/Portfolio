@@ -9,3 +9,10 @@ En está página se mostrara toda la información sobre mi relacionda con mi con
 ## Tecnologías
 
 Será una página hecha con HTML, CSS y React.
+
+## Créditos
+
+Fuentes para los iconos usados:
+
+https://fontawesome.com/icons y https://iconmonstr.com/
+
