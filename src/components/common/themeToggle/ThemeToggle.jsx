@@ -6,7 +6,7 @@ export const ThemeToggle = () => {
     const { theme, toggleTheme } = useTheme();
 
     return (
-        <button onClick={toggleTheme} className="theme-toggle-button">
+        <button className="theme-toggle-button" onClick={toggleTheme}>
             {/* Comprobamos si el tema es 'dark' para mostrar el sol */}
             {theme === 'dark' ? (
                 <img src="/assets/icons/sun-icon.svg" alt="Tema Claro" height="24"/> 

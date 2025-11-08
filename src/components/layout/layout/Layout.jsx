@@ -2,6 +2,7 @@ import { AboutSection } from '../../sections/aboutSection/AboutSection'
 import { EducationSection } from '../../sections/educationSection/EducationSection'
 import { ExperienceSection } from '../../sections/experienceSection/ExperienceSection'
 import { HeroSection } from '../../sections/heroSection/HeroSection'
+import { ProyectSection } from '../../sections/proyectSection/ProyectSection'
 import { TechnologiesSection } from '../../sections/technologiesSection/TechnologiesSection'
 import './layout.css'
 
@@ -13,6 +14,7 @@ export const Layout = () => {
                 <AboutSection></AboutSection>
                 <TechnologiesSection></TechnologiesSection>
                 <ExperienceSection></ExperienceSection>
+                <ProyectSection></ProyectSection>
                 <EducationSection></EducationSection>
             </main>
         </>

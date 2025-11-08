@@ -1,0 +1,45 @@
+.container-education{
+    align-items: center;
+    padding: 40px 0;
+    text-align: center;
+}
+
+.title-education{
+    font-size: 48px;
+    font-weight: bold;
+    padding: 10px;
+    background-color: var(--primary);
+    margin-bottom: 40px;
+}
+
+.educations-container{
+
+}
+.education-container-1{
+    font-size: 20px;
+    width: 70%;
+    margin: auto;
+    border: 2px solid var(--accent);
+    border-radius: 8px;
+    margin-bottom: 30px;
+    background-color: var(--background-secondary);
+}
+.education-container-2{
+    font-size: 20px;
+    margin-bottom: 30px;
+    width: 70%;
+    margin: auto;
+    border: 2px solid var(--accent);
+    border-radius: 8px;
+    background-color: var(--background-secondary);
+}
+.education-title{
+    padding: 20px;
+}
+.education-company{
+    padding: 20px;
+}
+.education-description{
+    padding: 20px;
+    text-align: justify;
+}

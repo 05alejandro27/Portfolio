@@ -35,19 +35,19 @@ export const LanguageSelector = () => {
     }, []);
 
     return (
-        <div className="language-selector" ref={dropdownRef}>
+        <div className="language-selector-container" ref={dropdownRef}>
             <button 
                 className={`language-button ${isOpen ? 'open' : ''}`}
                 onClick={toggleDropdown}
                 aria-label="Seleccionar idioma"
             >
-                <img src="/assets/icons/translate-icon.svg" alt="Traducir" className="translate-icon" />
-                <span className="current-lang">{currentLanguage?.code.toUpperCase()}</span>
-                <span className={`arrow ${isOpen ? 'up' : 'down'}`}>▼</span>
+                <img className="translate-icon" src="/assets/icons/translate-icon.svg" alt="Traducir"/>
+
+                
             </button>
 
             {isOpen && (
-                <div className="dropdown-menu">
+                <div className="dropdown-menu"> 
                     {languages.map((lang) => (
                         <button
                             key={lang.code}

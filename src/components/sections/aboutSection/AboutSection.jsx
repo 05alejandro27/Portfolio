@@ -6,9 +6,9 @@ export const AboutSection = () => {
     const { t } = useTranslation();
 
     return (
-        <>
-            <h1>{t('about.title')}</h1>
-            <p>{t('about.description')}</p>
-        </>
+        <div className='container-about'>
+            <h1 className='title-about'>{t('about.title')}</h1>
+            <p className='description-about'>{t('about.description')}</p>
+        </div>
     )
 }

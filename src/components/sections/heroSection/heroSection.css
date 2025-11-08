@@ -1,0 +1,45 @@
+.container-hero{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 40px 20px;
+    min-height: 100vh;
+}
+
+.text-container-hero{
+    margin-bottom: 50px;
+}
+.title-hero{
+    font-size: 48px;
+    font-weight: bold;
+    padding: 15px;
+    background-color: var(--primary);
+    margin: 0 0 40px 0;
+    border-radius: 12px;
+    text-align: center;
+}
+.description-hero{
+    font-size: 20px;
+    margin-bottom: 30px;
+}
+
+.buttons-container-hero{
+    display: flex;
+    align-items: center;    
+    gap: 15px;
+}
+.linkedin-icon-button{
+    
+}
+.github-icon-button{
+    
+}
+.download-cv-button{
+    color: var(--text);
+}
+
+.me-photo{
+    width: 400px;
+    height: 400px;
+    object-fit: cover;
+}

@@ -1,4 +1,9 @@
 footer{
-    margin: auto;
-    background-color: blueviolet;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    
+    background-color: var(--secondary);
+    color: #1a202d;
 }

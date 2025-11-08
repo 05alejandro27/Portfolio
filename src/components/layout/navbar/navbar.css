@@ -1,15 +1,35 @@
 nav{
-    margin: auto;
-    background-color: aqua;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    
+    position: fixed;
+    width: 100%;
+
+    font-family: var(--font-heading);
+    background-color: var(--secondary);
 }
-.img {
-    display: inline-block;
+
+.me-icon {
+    height: 50px;
 }
-nav ul li {
-    list-style: none;
-    display: inline-block;
-    padding: 0 20px;
+
+.links-container {
+    flex-grow: 1;
+    text-align: center;
 }
-.enlaces-style {
-    text-decoration: none;
+.links-container ul {
+    color: #1a202d;
+}
+.links-container ul li {
+    
+}
+.links-style {
+    color: #1a202d;
+}
+
+.buttons-container-nav {
+    display: flex;
+    gap: 20px;
 }

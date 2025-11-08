@@ -1,33 +1,42 @@
-.container-experience{
+.container-proyect{
     align-items: center;
     padding: 40px 0;
     text-align: center;
 }
-.title-experience{
+.title-proyect{
     font-size: 48px;
     font-weight: bold;
     padding: 10px;
     background-color: var(--primary);
     margin-bottom: 40px;
+    display: block;
+    width: 100%;
 }
 
-.experience-container{
+.proyects-container{
+    display: flex;
+    justify-content: space-around;
+}
+.proyect-1-container{
     font-size: 20px;
     margin-bottom: 30px;
-    width: 70%;
-    margin: auto;
     border: 2px solid var(--accent);
     border-radius: 8px;
-    margin-bottom: 20px;
+    width: 70%;
     background-color: var(--background-secondary);
 }
-.experience-position{
+.proyect-name{
     padding: 20px;
 }
-.experience-company{
+.proyect-description{
     padding: 20px;
 }
-.experience-description{
+.proyect-list-technologies{
     padding: 20px;
-    text-align: justify;
+}
+.proyect-list-technologies{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
 }

@@ -9,7 +9,7 @@ export const Footer = () => {
         <>
             <footer>
                 <p>{t('footer.text')}</p>
-                <a href='Navbar'>Volver</a>
+                <a href='Navbar'><img className="arrow-icon" src='/assets/icons/arrow-up-icon.svg' height={20}/></a>
             </footer>
         </>
     )

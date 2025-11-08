@@ -1,0 +1,25 @@
+.container-technologies{
+    align-items: center;
+    padding: 40px 0;
+    text-align: center;
+}
+.title-technologies{
+    font-size: 48px;
+    font-weight: bold;
+    padding: 10px;
+    background-color: var(--primary);
+    margin-bottom: 40px;
+}
+.list-technologies{
+    font-size: 20px;
+    margin-bottom: 30px;
+    display: flex;
+    justify-content: space-around;
+    gap: 15px;
+}
+
+.list-technologies-items{
+    display: flex;
+    align-items: center;
+    gap: 6px;
+}

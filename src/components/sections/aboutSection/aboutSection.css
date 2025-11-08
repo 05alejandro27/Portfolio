@@ -1,0 +1,23 @@
+.container-about{
+    align-items: center;
+    padding: 40px 0;
+    text-align: center;
+}
+.title-about{
+    font-size: 48px;
+    font-weight: bold;
+    padding: 10px;
+    background-color: var(--primary);
+    margin-bottom: 40px;
+}
+.description-about{
+    font-size: 20px;
+    margin-bottom: 30px;
+    border: 2px solid var(--accent);
+    border-radius: 8px;
+    width: 70%;
+    margin: auto;
+    padding: 20px;
+    text-align: justify;
+    background-color: var(--background-secondary);
+}
