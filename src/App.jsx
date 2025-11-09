@@ -1,6 +1,6 @@
-import { Footer } from "./components/layout/footer/Footer"
-import { Layout } from "./components/layout/layout/Layout"
-import { Navbar } from "./components/layout/navbar/Navbar"
+import { Footer } from './components/layout/footer/Footer'
+import { Layout } from './components/layout/layout/Layout'
+import { Navbar } from './components/layout/navbar/Navbar'
 
 function App() {
 

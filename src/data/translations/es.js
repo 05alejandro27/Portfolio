@@ -17,7 +17,7 @@ export const es = {
     },
     about: {
         title: 'Sobre mí',
-        description: 'Soy Alejandro, estoy cursando el Ciclo Formativo de Grado Superior en Desarrollo de Aplicaciones Web con excelente rendimiento académico. Aunque es mi primera experiencia programando, mi formación previa en Bachillerato de Ciencias me ha dotado de sólidas capacidades analíticas y de resolución de problemas que aplico constantemente en el desarrollo. Me apasiona fusionar creatividad y tecnología para aportar soluciones innovadoras a cada proyecto. Trabajo bien bajo presión y disfruto colaborando en equipo, donde suelo contribuir a mantener un ambiente positivo y productivo.'
+        description: 'Soy Alejandro, estoy cursando el segundo año del Ciclo Formativo de Grado Superior en Desarrollo de Aplicaciones Web. Aunque es mi primera experiencia programando, mi formación previa en Bachillerato de Ciencias me ha aportado sólidas capacidades analíticas y de resolución de problemas que aplico en mis desarrollos. Me encanta mezclar creatividad y tecnología para aportar soluciones innovadoras en los proyecto. Disfruto trabajando en equipo, aprendiendo y ayudando a mis compañeros.'
     },
     technologies: {
         title: 'Tecnologías',
@@ -35,21 +35,22 @@ export const es = {
         job1: {
             position: 'FP Dual - Desarrollador Full Stack',
             company: 'Ayesa | Marzo 2025 - Junio 2025',
-            description: 'Durante mis prácticas de formación dual en Ayesa, adquirí experiencia en desarrollo web full-stack, desarrollé y profundice mis conocimientos en HTML, CSS, JavaScriptJava, Angular y Java mediante cursos especializados usando metodologías ágiles, mientras desarrollaba habilidades de trabajo en equipo y resolución de problemas.'
+            description: 'Durante mis prácticas de formación dual en Ayesa, adquirí experiencia en desarrollo web full-stack, desarrollé y profundicé mis conocimientos en HTML, CSS, JavaScript, Angular y Java mediante cursos especializados usando metodologías ágiles, mientras desarrollaba habilidades de trabajo en equipo y resolución de problemas.'
         }
     },
     proyects: {
         title: 'Proyectos',
         proyect1: {
             name: 'Gestor de empleados',
-            description: 'Aplicación web de gestión de empleados desarrollada con Java, JSP y HTML en el frontend, que permite visualizar, consultar salarios y modificar datos de empleados mediante una arquitectura MVC conectada a una base de datos relacional MariaDB.',
+            description: 'Aplicación web de gestión de empleados desarrollada con HTML, CSS y Java JSP en el frontend, permitiendo consultar los datos de un empleado y también modificarlos conectandose a una base de datos relacional con MariaDB. He usado una arquitectura MVC así como otros patrones de diseño',
             listTechnologies: {
                 technologies1: 'HTML',
                 technologies2: 'CSS',
                 technologies3: 'Java + JSP',
                 technologies4: 'SQL',
                 technologies5: 'Git'
-            }
+            },
+            source: 'Explorar código fuente'
         }
     },
     education: {
@@ -62,8 +63,7 @@ export const es = {
         education2: {
             title: 'Bachillerato de Ciencias de la Salud y Tecnológico',
             company: 'IES Nervion | Septiembre 2022 - Junio 2024',
-            description: 'Desarrollé pensamiento analítico, razonamiento lógico-matemático, competencias científicas y habilidades de comunicación efectiva para la presentación de proyectos.'
+            description: 'Desarrollé pensamiento analítico, razonamiento lógico, competencias científicas.'
         }
-    },
-    //Contactos
+    }
 };

@@ -1,30 +1,28 @@
+/*Modo claro*/
 :root {
     --text: #1a202d;
     --background-primary: #ffffff;
-    --background-secondary: #edeff0;
+    --background-secondary: #F5F5F5;
     --primary: #667fea;
-    --secondary: #8a18c3;
+    --secondary: #7a6eea;
     --accent: #5568d3;
 
-
-    /* Fuentes */
     --font-heading: 'Space Grotesk', sans-serif;
     --font-body: 'Inter', sans-serif;
-    --font-code: 'JetBrains Mono', monospace;
 }
 
-/* TEMA OSCURO */
+/*Modo oscuro*/
 body.dark {
     --text: #d2d8e5;
     --background-primary: #0f1419;
     --background-secondary: #1a1f2e;
     --background: #030607;
     --primary: #152d99;
-    --secondary: #ae3ce7;
+    --secondary: #5041b8;
     --accent: #2c3faa;
 }
 
-*, *::before, *::after {
+* {
     box-sizing: border-box;
     margin: 0;
     padding: 0;

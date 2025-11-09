@@ -27,13 +27,7 @@
     display: flex;
     align-items: center;    
     gap: 15px;
-}
-.linkedin-icon-button{
-    
-}
-.github-icon-button{
-    
-}
+}   
 .download-cv-button{
     color: var(--text);
 }
@@ -41,5 +35,8 @@
 .me-photo{
     width: 400px;
     height: 400px;
+    background-color: #4054BE;
+    border: 2px solid var(--text);
+    border-radius: 8px;
     object-fit: cover;
 }

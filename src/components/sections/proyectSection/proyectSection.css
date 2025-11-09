@@ -30,13 +30,23 @@
 }
 .proyect-description{
     padding: 20px;
+    text-align: justify;
 }
 .proyect-list-technologies{
     padding: 20px;
+}
+.proyect-code-information{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
 }
 .proyect-list-technologies{
     display: flex;
     align-items: center;
     justify-content: center;
     gap: 15px;
+}
+.proyect-source button{
+    color: var(--text);
 }

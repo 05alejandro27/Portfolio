@@ -10,12 +10,12 @@ export const Layout = () => {
     return (
         <>
             <main>
-                <HeroSection></HeroSection>
-                <AboutSection></AboutSection>
-                <TechnologiesSection></TechnologiesSection>
-                <ExperienceSection></ExperienceSection>
-                <ProyectSection></ProyectSection>
-                <EducationSection></EducationSection>
+                <HeroSection id='home'></HeroSection>
+                <AboutSection id='about'></AboutSection>
+                <TechnologiesSection id='technologies'></TechnologiesSection>
+                <ExperienceSection id='experience'></ExperienceSection>
+                <ProyectSection id='projects'></ProyectSection>
+                <EducationSection id='education'></EducationSection>
             </main>
         </>
     )
