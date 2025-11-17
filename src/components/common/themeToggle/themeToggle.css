@@ -1,3 +1,7 @@
 .theme-toggle-button{
     width: 20px;
+    transition: transform 0.3s ease-in-out;
+}
+.theme-toggle-button:hover{
+    transform: scale(1.35);
 }

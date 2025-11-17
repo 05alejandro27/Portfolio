@@ -17,7 +17,7 @@ export const es = {
     },
     about: {
         title: 'Sobre mí',
-        description: 'Soy Alejandro, estoy cursando el segundo año del Ciclo Formativo de Grado Superior en Desarrollo de Aplicaciones Web. Aunque es mi primera experiencia programando, mi formación previa en Bachillerato de Ciencias me ha aportado sólidas capacidades analíticas y de resolución de problemas que aplico en mis desarrollos. Me encanta mezclar creatividad y tecnología para aportar soluciones innovadoras en los proyecto. Disfruto trabajando en equipo, aprendiendo y ayudando a mis compañeros.'
+        description: 'Soy Alejandro, estoy cursando el segundo año del Ciclo Formativo de Grado Superior en Desarrollo de Aplicaciones Web. Aunque es mi primera experiencia programando, mi formación previa en Bachillerato de Ciencias me ha aportado sólidas capacidades analíticas y de resolución de problemas que aplico en mis desarrollos. Me encanta mezclar creatividad y tecnología para aportar soluciones innovadoras en los proyectos. Disfruto trabajando en equipo, aprendiendo y ayudando a mis compañeros.'
     },
     technologies: {
         title: 'Tecnologías',
@@ -42,7 +42,7 @@ export const es = {
         title: 'Proyectos',
         proyect1: {
             name: 'Gestor de empleados',
-            description: 'Aplicación web de gestión de empleados desarrollada con HTML, CSS y Java JSP en el frontend, permitiendo consultar los datos de un empleado y también modificarlos conectandose a una base de datos relacional con MariaDB. He usado una arquitectura MVC así como otros patrones de diseño',
+            description: 'Aplicación web de gestión de empleados desarrollada con HTML, CSS y Java JSP en el frontend, permitiendo consultar los datos de un empleado y también modificarlos conectándose a una base de datos relacional con MariaDB. He usado una arquitectura MVC así como otros patrones de diseño',
             listTechnologies: {
                 technologies1: 'HTML',
                 technologies2: 'CSS',

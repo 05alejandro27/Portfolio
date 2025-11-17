@@ -8,15 +8,13 @@ import './layout.css'
 
 export const Layout = () => {
     return (
-        <>
-            <main>
-                <HeroSection id='home'></HeroSection>
-                <AboutSection id='about'></AboutSection>
-                <TechnologiesSection id='technologies'></TechnologiesSection>
-                <ExperienceSection id='experience'></ExperienceSection>
-                <ProyectSection id='projects'></ProyectSection>
-                <EducationSection id='education'></EducationSection>
-            </main>
-        </>
+        <main>
+            <HeroSection id='home'/>
+            <AboutSection id='about'/>
+            <TechnologiesSection id='technologies'/>
+            <ExperienceSection id='experience'/>
+            <ProyectSection id='projects'/>
+            <EducationSection id='education'/>
+        </main>
     )
 }

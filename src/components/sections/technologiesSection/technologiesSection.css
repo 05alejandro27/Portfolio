@@ -1,18 +1,17 @@
 .container-technologies{
     align-items: center;
-    padding: 40px 0;
     text-align: center;
+    scroll-margin-top: 70px;
 }
 .title-technologies{
     font-size: 48px;
     font-weight: bold;
     padding: 10px;
     background-color: var(--primary);
-    margin-bottom: 40px;
 }
 .list-technologies{
+    margin: 40px auto;
     font-size: 20px;
-    margin-bottom: 30px;
     display: flex;
     justify-content: space-around;
     gap: 15px;
@@ -22,4 +21,20 @@
     display: flex;
     align-items: center;
     gap: 6px;
+    transition: transform 0.3s ease-in-out;
+}
+.list-technologies-items:hover{
+    transform: translateY(-2px);
+}
+
+@media (max-width: 768px) {
+    .title-technologies {
+        font-size: 36px;
+    }
+
+    .list-technologies {
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 30px;
+    }
 }

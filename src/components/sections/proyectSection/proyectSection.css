@@ -1,14 +1,13 @@
 .container-proyect{
     align-items: center;
-    padding: 40px 0;
     text-align: center;
+    scroll-margin-top: 70px;
 }
 .title-proyect{
     font-size: 48px;
     font-weight: bold;
     padding: 10px;
     background-color: var(--primary);
-    margin-bottom: 40px;
     display: block;
     width: 100%;
 }
@@ -16,17 +15,27 @@
 .proyects-container{
     display: flex;
     justify-content: space-around;
+    margin: 40px auto;
 }
 .proyect-1-container{
     font-size: 20px;
-    margin-bottom: 30px;
     border: 2px solid var(--accent);
     border-radius: 8px;
     width: 70%;
     background-color: var(--background-secondary);
+    box-shadow: 0px 4px 10px -3px var(--accent);
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
 }
+.proyect-1-container:hover{
+    transform: translateY(-2px);
+    box-shadow: 0px 8px 20px -2px var(--accent);
+}
+
 .proyect-name{
     padding: 20px;
+}
+.proyect-image{
+    width: 80%;
 }
 .proyect-description{
     padding: 20px;
@@ -45,8 +54,47 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    gap: 15px;
+    gap: 20px;
+}
+.proyect-list-technologies-items{
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    transition: transform 0.3s ease-in-out;
+}
+.proyect-list-technologies-items:hover{
+    transform: translateY(-2px);
 }
 .proyect-source button{
     color: var(--text);
+    transition: transform 0.3s ease-in-out;
+}
+.proyect-source button:hover{
+    transform: scale(1.05);
+}
+
+@media (max-width: 768px) {
+    .title-proyect {
+        font-size: 36px;
+    }
+
+    .proyect-1-container {
+        width: 90%;
+        font-size: 18px;
+    }
+
+    .proyect-image {
+        width: 90%;
+    }
+
+    .proyect-code-information {
+        flex-direction: column;
+        gap: 30px;
+        padding: 20px;
+    }
+
+    .proyect-list-technologies {
+        flex-wrap: wrap;
+        gap: 15px;
+    }
 }

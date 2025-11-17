@@ -8,7 +8,9 @@ export const AboutSection = ({id}) => {
     return (
         <div className='container-about' id={id}>
             <h1 className='title-about'>{t('about.title')}</h1>
-            <p className='description-about'>{t('about.description')}</p>
+            <div className='description-container'>
+                <p className='description-about'>{t('about.description')}</p>
+            </div>
         </div>
     )
 }

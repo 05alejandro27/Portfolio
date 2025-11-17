@@ -35,6 +35,11 @@ body {
     background: var(--background-primary);
 }
 
+main {
+    position: relative;
+    z-index: 1;
+}
+
 button {
     background-color: transparent;
     border: none;

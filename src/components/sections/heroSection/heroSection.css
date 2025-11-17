@@ -2,7 +2,6 @@
     display: flex;
     justify-content: space-around;
     align-items: center;
-    padding: 40px 20px;
     min-height: 100vh;
 }
 
@@ -27,9 +26,26 @@
     display: flex;
     align-items: center;    
     gap: 15px;
-}   
+}
+
+.linkedin-icon-button{
+    transition: transform 0.3s ease-in-out;
+}
+.linkedin-icon-button:hover{
+    transform: scale(1.35);
+}
+.github-icon-button{
+    transition: transform 0.3s ease-in-out;
+}
+.github-icon-button:hover{
+    transform: scale(1.35);
+}
 .download-cv-button{
     color: var(--text);
+    transition: transform 0.3s ease-in-out;
+}
+.download-cv-button:hover{
+    transform: scale(1.1);
 }
 
 .me-photo{
@@ -39,4 +55,37 @@
     border: 2px solid var(--text);
     border-radius: 8px;
     object-fit: cover;
+}
+
+@media (max-width: 768px) {
+    .container-hero {
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+        gap: 40px;
+        padding: 0 20px;
+    }
+
+    .me-photo {
+        width: 200px;
+        height: 200px;
+    }
+
+    .text-container-hero {
+        margin-bottom: 0;
+    }
+
+    .title-hero {
+        font-size: 32px;
+    }
+
+    .description-hero {
+        font-size: 18px;
+    }
+
+    .buttons-container-hero {
+        justify-content: center;
+        flex-wrap: wrap;
+        gap: 20px;
+    }
 }

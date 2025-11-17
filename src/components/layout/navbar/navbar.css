@@ -6,6 +6,7 @@ nav{
     
     position: fixed;
     width: 100%;
+    z-index: 1000;
 
     font-family: var(--font-heading);
     background-color: var(--secondary);
@@ -24,6 +25,11 @@ nav{
 }
 .links-style {
     color: #1a202d;
+    display: inline-block;
+    transition: transform 0.3s ease-in-out;
+}
+.links-style:hover{
+    transform: scale(1.1);
 }
 
 .buttons-container-nav {

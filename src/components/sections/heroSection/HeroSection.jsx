@@ -26,7 +26,7 @@ export const HeroSection = ({id}) => {
                             </button>
                         </a>
                         <img className='download-icon-button' src='/assets/icons/download-icon.svg' alt='Download-Icon' height='24'/>
-                        <a href='https://drive.google.com/file/d/1HUVFNr0l3Om1upi3-xGFePyrk3fNetzz/view?usp=sharing'>
+                        <a href='https://drive.google.com/file/d/1HUVFNr0l3Om1upi3-xGFePyrk3fNetzz/view?usp=sharing' target='blank'>
                             <button className='download-cv-button'>{t('hero.button')}</button>
                         </a>
                         <img className='mail-icon' src='/assets/icons/mail-icon.svg' alt='Icon Mail' height='24'/>
